@@ -1,0 +1,27 @@
+{
+  "name": "vcard-js",
+  "version": "1.1.0",
+  "description": "Vcard parse and serialize with version.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuojiang/vcard-js.git"
+  },
+  "keywords": [
+    "vCard",
+    "jCard",
+    "vcf"
+  ],
+  "author": "zuojiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuojiang/vcard-js/issues"
+  },
+  "homepage": "https://github.com/zuojiang/vcard-js#readme"
+}

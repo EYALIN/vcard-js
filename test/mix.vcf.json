@@ -1,0 +1,470 @@
+[
+  [
+    "vcard",
+    [
+      [
+        "version",
+        {},
+        "text",
+        "2.1"
+      ],
+      [
+        "rev",
+        {},
+        "text",
+        "20151216T141119Z"
+      ],
+      [
+        "x-generator",
+        {},
+        "text",
+        "IntSig"
+      ],
+      [
+        "x-is-angle",
+        {},
+        "text",
+        "90"
+      ],
+      [
+        "n",
+        {
+          "charset": "utf-8"
+        },
+        "text",
+        "周;宪"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "0,0,0,0,0,0,0,0;1,2,13"
+      ],
+      [
+        "fn",
+        {
+          "charset": "utf-8"
+        },
+        "text",
+        "周宪"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "540,484,583,484,583,615,540,615;0,9,10,13"
+      ],
+      [
+        "tel",
+        {
+          "type": [
+            "CELL",
+            "VOICE"
+          ]
+        },
+        "text",
+        "18573183138"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "400,373,423,373,423,619,400,619;6,13"
+      ],
+      [
+        "tel",
+        {
+          "type": [
+            "WORK",
+            "VOICE"
+          ]
+        },
+        "text",
+        "073188033808"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "369,338,392,338,392,619,369,619;3,4,5,6,13"
+      ],
+      [
+        "email",
+        {
+          "type": [
+            "PREF",
+            "INTERNET"
+          ]
+        },
+        "text",
+        "66426222@qq.com"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "336,296,362,296,362,619,336,619;7,14,13"
+      ],
+      [
+        "url",
+        {
+          "type": [
+            "WORK"
+          ],
+          "charset": "utf-8"
+        },
+        "text",
+        "www.zzyq.cc"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "304,376,331,376,331,620,304,620;8,13"
+      ],
+      [
+        "title",
+        {
+          "charset": "utf-8"
+        },
+        "text",
+        "研发总监"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "540,331,565,331,565,441,540,441;9,16,11,10,0,13"
+      ],
+      [
+        "org",
+        {
+          "charset": "utf-8"
+        },
+        "text",
+        "北京中周理才信息技术有限公司;"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "477,106,508,106,508,617,477,617;10,9,11,0,13"
+      ],
+      [
+        "adr",
+        {
+          "type": [
+            "WORK",
+            "PREF"
+          ],
+          "charset": "utf-8"
+        },
+        "text",
+        ";;开福区北辰三角洲 D3区1栋3001;长沙市;;410008;中国"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "273,121,452,121,452,621,273,621;11,13"
+      ],
+      [
+        "label",
+        {
+          "type": [
+            "WORK",
+            "PREF"
+          ],
+          "charset": "utf-8"
+        },
+        "text",
+        "长沙市开福区北辰三角洲 D3区1栋3001, 410008"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "273,121,452,121,452,621,273,621;11,13"
+      ],
+      [
+        "note",
+        {
+          "charset": "utf-8"
+        },
+        "text",
+        "中周至尚"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "316,740,366,740,366,957,316,957;13,10,11,9,0"
+      ],
+      [
+        "note",
+        {
+          "charset": "utf-8"
+        },
+        "text",
+        "ZINGROW"
+      ],
+      [
+        "x-is-info",
+        {},
+        "text",
+        "279,739,311,739,311,964,279,964;13,10,11,9,0"
+      ]
+    ]
+  ],
+  [
+    "vcard",
+    [
+      [
+        "version",
+        {},
+        "text",
+        "3.0"
+      ],
+      [
+        "n",
+        {},
+        "text",
+        "Gump;Forrest;;Mr."
+      ],
+      [
+        "fn",
+        {},
+        "text",
+        "Forrest Gump"
+      ],
+      [
+        "org",
+        {},
+        "text",
+        "Bubba Gump Shrimp Co."
+      ],
+      [
+        "title",
+        {},
+        "text",
+        "Shrimp Man"
+      ],
+      [
+        "photo",
+        {
+          "type": [
+            "GIF"
+          ]
+        },
+        "URL",
+        "http://www.example.com/dir_photos/my_photo.gif"
+      ],
+      [
+        "tel",
+        {
+          "type": [
+            "WORK",
+            "VOICE"
+          ]
+        },
+        "text",
+        "(111) 555-1212"
+      ],
+      [
+        "tel",
+        {
+          "type": [
+            "HOME",
+            "VOICE"
+          ]
+        },
+        "text",
+        "(404) 555-1212"
+      ],
+      [
+        "adr",
+        {
+          "type": [
+            "WORK"
+          ]
+        },
+        "text",
+        ";;100 Waters Edge;Baytown;LA;30314;United States of America"
+      ],
+      [
+        "label",
+        {
+          "type": [
+            "WORK"
+          ]
+        },
+        "text",
+        "100 Waters Edge\\nBaytown\\, LA 30314\\nUnited States of America"
+      ],
+      [
+        "adr",
+        {
+          "type": [
+            "HOME"
+          ]
+        },
+        "text",
+        ";;42 Plantation St.;Baytown;LA;30314;United States of America"
+      ],
+      [
+        "label",
+        {
+          "type": [
+            "HOME"
+          ]
+        },
+        "text",
+        "42 Plantation St.\\nBaytown\\, LA 30314\\nUnited States of America"
+      ],
+      [
+        "email",
+        {
+          "type": [
+            "PREF",
+            "INTERNET"
+          ]
+        },
+        "text",
+        "forrestgump@example.com"
+      ],
+      [
+        "impp",
+        {
+          "x-service-type": "Skype",
+          "type": [
+            "WORK",
+            "pref"
+          ]
+        },
+        "text",
+        "skype:neil.mckeown2"
+      ],
+      [
+        "adr",
+        {
+          "type": [
+            "WORK"
+          ]
+        },
+        "text",
+        ";;100 Waters Edge;Baytown;LA;30314;United States of America"
+      ],
+      [
+        "prodid",
+        {},
+        "text",
+        "-//Apple Inc.//iOS 7.0.4//EN"
+      ],
+      [
+        "rev",
+        {},
+        "text",
+        "2008-04-24T19:52:43Z"
+      ]
+    ]
+  ],
+  [
+    "vcard",
+    [
+      [
+        "version",
+        {},
+        "text",
+        "4.0"
+      ],
+      [
+        "n",
+        {},
+        "text",
+        "Gump;Forrest;;;"
+      ],
+      [
+        "fn",
+        {},
+        "text",
+        "Forrest Gump"
+      ],
+      [
+        "org",
+        {},
+        "text",
+        "Bubba Gump Shrimp Co."
+      ],
+      [
+        "title",
+        {},
+        "text",
+        "Shrimp Man"
+      ],
+      [
+        "photo",
+        {
+          "mediatype": "image/gif"
+        },
+        "text",
+        "http://www.example.com/dir_photos/my_photo.gif"
+      ],
+      [
+        "tel",
+        {
+          "type": [
+            "work",
+            "voice"
+          ]
+        },
+        "uri",
+        "tel:+11115551212"
+      ],
+      [
+        "tel",
+        {
+          "type": [
+            "home",
+            "voice"
+          ]
+        },
+        "uri",
+        "tel:+14045551212"
+      ],
+      [
+        "adr",
+        {
+          "type": [
+            "work"
+          ],
+          "label": "100 \\\" Waters Edge\\nBaytown, LA 30314\\nUnited States of America"
+        },
+        "text",
+        ";;100 Waters Edge;Baytown;LA;30314;United States of America"
+      ],
+      [
+        "adr",
+        {
+          "type": [
+            "home"
+          ],
+          "label": "42 Plantation St.\\nBaytown, LA 30314\\nUnited States ofAmerica"
+        },
+        "text",
+        ";;42 Plantation St.;Baytown;LA;30314;United States of America"
+      ],
+      [
+        "email",
+        {},
+        "text",
+        "forrestgump@example.com"
+      ],
+      [
+        "rev",
+        {},
+        "text",
+        "20080424T195243Z"
+      ]
+    ]
+  ]
+]
