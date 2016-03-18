@@ -1,6 +1,6 @@
 {
   "name": "vcard-js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Vcard parse and serialize with version.",
   "main": "index.js",
   "directories": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/zuojiang/vcard-js/issues"
   },
-  "homepage": "https://github.com/zuojiang/vcard-js#readme"
+  "homepage": "https://github.com/zuojiang/vcard-js#readme",
+  "dependencies": {
+    "quoted-printable": "^1.0.0"
+  }
 }
