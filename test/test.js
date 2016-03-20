@@ -1,3 +1,4 @@
+var assert = require('assert');
 var fs = require('fs');
 var VCard = require('../index.js');
 
@@ -46,6 +47,12 @@ fs.readdir(dir, function(err, files){
         var jsonStr = JSON.stringify(list, null, '  ');
         var jsonArr = JSON.parse(jsonStr);
         list = VCard.parse(jsonArr);
+
+        list.forEach(function(vCard){
+          var version = vCard.find('version')[0].value;
+          assert.ok(vCard.remove('version'))
+          assert.equal(vCard.add('VERSION:'+version).value, version);
+        });
 
         fs.writeFileSync(filename + '.txt', VCard.serialize(list));
         fs.writeFileSync(filename + '.json', jsonStr);

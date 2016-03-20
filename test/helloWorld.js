@@ -10,8 +10,15 @@ var lines = [
   'END:VCARD'
 ];
 
-var jCard = VCard.parse(lines.join(VCard.EOL));
-console.log(JSON.stringify(jCard, null, '  '));
+var list = VCard.parse(lines.join(VCard.EOL));
+list.forEach(function(card){
+  card.items.forEach(function(item){
+    console.log(item.name +'='+ item.decode());
+  });
+});
 
-var vCard = VCard.serialize(jCard);
+var jCard = JSON.stringify(list, null, '  ');
+console.log(jCard);
+
+var vCard = VCard.serialize(list);
 console.log(vCard);

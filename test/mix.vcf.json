@@ -11,7 +11,7 @@
       [
         "rev",
         {},
-        "text",
+        "timestamp",
         "20151216T141119Z"
       ],
       [
@@ -213,6 +213,22 @@
         {},
         "text",
         "279,739,311,739,311,964,279,964;13,10,11,9,0"
+      ],
+      [
+        "geo",
+        {},
+        "text",
+        "39.95;-75.1667"
+      ],
+      [
+        "sound",
+        {
+          "type": [
+            "OGG"
+          ]
+        },
+        "uri",
+        "http://example.com/sound.ogg"
       ]
     ]
   ],
@@ -363,7 +379,7 @@
       [
         "rev",
         {},
-        "text",
+        "timestamp",
         "2008-04-24T19:52:43Z"
       ]
     ]
@@ -406,7 +422,7 @@
         {
           "mediatype": "image/gif"
         },
-        "text",
+        "uri",
         "http://www.example.com/dir_photos/my_photo.gif"
       ],
       [
@@ -462,8 +478,20 @@
       [
         "rev",
         {},
-        "text",
+        "timestamp",
         "20080424T195243Z"
+      ],
+      [
+        "lang",
+        {},
+        "language-tag",
+        "fr-CA"
+      ],
+      [
+        "geo",
+        {},
+        "text",
+        "geo:39.95,-75.1667"
       ]
     ]
   ]

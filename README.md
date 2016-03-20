@@ -26,10 +26,17 @@ var lines = [
   'END:VCARD'
 ];
 
-var jCard = VCard.parse(lines.join(VCard.EOL));
-console.log(JSON.stringify(jCard, null, '  '));
+var list = VCard.parse(lines.join(VCard.EOL));
+list.forEach(function(card){
+  card.items.forEach(function(item){
+    console.log(item.name +'='+ item.decode());
+  });
+});
 
-var vCard = VCard.serialize(jCard);
+var jCard = JSON.stringify(list, null, '  ');
+console.log(jCard);
+
+var vCard = VCard.serialize(list);
 console.log(vCard);
 ```
 
@@ -39,26 +46,34 @@ console.log(vCard);
 
 #### VCard
 
+* `VCard.EOL`
+* `VCard.MAX_WIDTH`
 * `VCard.parse(data[,opt])`
 * `VCard.serialize(vCards[,opt])`
 * `VCard.readFile(filename[,opt],callback)`
-* `VCard#EOL`
-* `VCard#MAX_WIDTH`
+* `VCard.identifyType(item)`
 * `VCard#items`
 * `VCard#toJSON()`
-* `VCard#toString([opt])`
 * `VCard#toString(version)`
+* `VCard#toString([opt])`
+* `VCard#find(name)`
+* `VCard#find(filter)`
+* `VCard#add(line)`
+* `VCard#remove(name)`
 
 #### VCard.Item
 
 * `VCard.Item#name`
 * `VCard.Item#params`
+* `VCard.Item#dataType`
 * `VCard.Item#value`
 * `VCard.Item#encode(value)`
 * `VCard.Item#decode()`
+* `VCard.Item#quotedPrintable([value])`
+* `VCard.Item#base64([value])`
 * `VCard.Item#toJSON()`
-* `VCard.Item#toString([opt])`
 * `VCard.Item#toString(version)`
+* `VCard.Item#toString([opt])`
 
 You can output the detail documentation by [jsdoc](https://github.com/jsdoc3/jsdoc) command.
 

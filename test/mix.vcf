@@ -27,6 +27,8 @@ NOTE;CHARSET=utf-8:中周至尚
 X-IS-INFO:316,740,366,740,366,957,316,957;13,10,11,9,0
 NOTE;CHARSET=utf-8:ZINGROW
 X-IS-INFO:279,739,311,739,311,964,279,964;13,10,11,9,0
+GEO:39.95;-75.1667
+SOUND;OGG:http://example.com/sound.ogg
 END:VCARD
 
 BEGIN:VCARD
@@ -66,4 +68,6 @@ ADR;TYPE=home;LABEL="42 Plantation St.\nBaytown, LA 30314\nUnited States of
  America":;;42 Plantation St.;Baytown;LA;30314;United States of America
 EMAIL:forrestgump@example.com
 REV:20080424T195243Z
+LANG:fr-CA
+GEO:geo:39.95,-75.1667
 END:VCARD
