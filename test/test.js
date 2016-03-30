@@ -54,7 +54,11 @@ fs.readdir(dir, function(err, files){
           assert.equal(vCard.add('VERSION:'+version).value, version);
         });
 
-        fs.writeFileSync(filename + '.txt', VCard.serialize(list));
+        jsonArr = list.map(function(vCard){
+          return vCard.toJSON();
+        });
+
+        fs.writeFileSync(filename + '.txt', VCard.serialize(jsonArr));
         fs.writeFileSync(filename + '.json', jsonStr);
       });
     }

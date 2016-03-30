@@ -17,27 +17,24 @@ npm install vcard-js
 ```js
 var VCard = require('vcard-js');
 
-var lines = [
+var str = [
   'BEGIN:VCARD',
   'VERSION:2.1',
   'N:Einstein',
   'FN:Albert Einstein',
   'TEL:(111) 555-6666',
   'END:VCARD'
-];
+].join(VCard.EOL);
 
-var list = VCard.parse(lines.join(VCard.EOL));
-list.forEach(function(card){
-  card.items.forEach(function(item){
-    console.log(item.name +'='+ item.decode());
-  });
+var arr = VCard.parse(str);
+
+console.log(VCard.serialize(arr));
+console.log(VCard.serialize(arr, '3.0'));
+
+arr.forEach(function(vCard){
+  console.log(vCard.toString('4.0'));
+  console.log(vCard.toJSON());
 });
-
-var jCard = JSON.stringify(list, null, '  ');
-console.log(jCard);
-
-var vCard = VCard.serialize(list);
-console.log(vCard);
 ```
 
 ## API
@@ -49,6 +46,7 @@ console.log(vCard);
 * `VCard.EOL`
 * `VCard.MAX_WIDTH`
 * `VCard.parse(data[,opt])`
+* `VCard.serialize(vCards,version)`
 * `VCard.serialize(vCards[,opt])`
 * `VCard.readFile(filename[,opt],callback)`
 * `VCard.identifyType(item)`
@@ -85,3 +83,7 @@ jsdoc -R README.md lib/
 
 * [Wikipedia](https://en.wikipedia.org/wiki/VCard)
 * [IANA](http://www.iana.org/assignments/vcard-elements/vcard-elements.xhtml)
+
+## License
+
+ISC
